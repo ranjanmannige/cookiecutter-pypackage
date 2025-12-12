@@ -9,5 +9,5 @@
   "pypi_username": "{{ cookiecutter.github_username }}",
   "first_version": "0.1.0",
   "__gh_slug": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
-  "_copy_without_render": [ "justfile" ]
+  "_copy_without_render": [ "justfile" , ".github/workflows/SphinxBuild.yml"]
 }
