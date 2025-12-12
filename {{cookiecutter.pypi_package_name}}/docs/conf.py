@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '{{cookiecutter.project_slug}}'
-copyright = '{{now.year}}, {{cookiecutter.full_name}}'
+copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.full_name}}"
 author = '{{cookiecutter.full_name}}'
 release = '{{cookiecutter.first_version}}'
 
