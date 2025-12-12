@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '{{cookiecutter.project_slug}}'
-copyright = '2025, Ranjan Mannige'
-author = 'Ranjan Mannige'
-release = '1.0.0'
+copyright = '{{now.year}}, {{cookiecutter.full_name}}'
+author = '{{cookiecutter.full_name}}'
+release = '{{cookiecutter.first_version}}'
 
 import os
 import sys

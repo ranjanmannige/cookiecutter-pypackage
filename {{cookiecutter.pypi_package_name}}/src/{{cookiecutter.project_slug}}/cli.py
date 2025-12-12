@@ -30,7 +30,7 @@ app = typer.Typer(add_completion=False,
 console = Console()
 
 
-@app.command(epilog="Made with :heart: by [blue]Ranjan Mannige[/blue]")
+@app.command(epilog="Made with :heart: by [blue]{{cookiecutter.full_name}}[/blue]")
 def main(name:Annotated[str, typer.Option("--name", 
                                      help="""Who do you want to greet?""")],
     ):
