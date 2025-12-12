@@ -10,7 +10,7 @@ A `cookiecutter <https://github.com/cookiecutter/cookiecutter>`__ template for a
 
 V1 of readme from `github.com/audreyfeldroy/cookiecutter-pypackage <github.com/audreyfeldroy/cookiecutter-pypackage/>`__.
 
-.. contents::
+.. .. contents::
 
 *   GitHub repo: `github.com/ranjanmannige/cookiecutter-pypackage/ <https://github.com/ranjanmannige/cookiecutter-pypackage/>`__
 *   Free software: MIT license
