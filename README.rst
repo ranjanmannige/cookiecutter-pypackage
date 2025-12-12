@@ -1,8 +1,10 @@
-# Cookiecutter PyPackage (custom version)
-
 .. image:: {{cookiecutter.pypi_package_name}}/docs/images/cookie_cutter_banner.png
     :alt: CookieCutter Banner
     :width: 75%
+
+=======================================
+Cookiecutter PyPackage (custom version)
+=======================================
 
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a Python package.
 
@@ -13,7 +15,8 @@ V1 of readme from [https://github.com/audreyfeldroy/cookiecutter-pypackage/](git
 *   GitHub repo: [https://github.com/audreyfeldroy/cookiecutter-pypackage/](https://github.com/audreyfeldroy/cookiecutter-pypackage/)
 *   Free software: MIT license
 
-### Features
+Features
+========
 
 *   Testing setup with pytest
 *   Sphinx documentation, including creation of views for code manual and notebooks
@@ -22,7 +25,8 @@ V1 of readme from [https://github.com/audreyfeldroy/cookiecutter-pypackage/](git
 *   Auto-release to [PyPI](https://pypi.python.org/pypi) when you push a new tag to master (optional)
 *   Command line interface using Typer
 
-### Quickstart
+Quickstart
+==========
 
 Install the latest Cookiecutter if you haven't installed it yet:
 
