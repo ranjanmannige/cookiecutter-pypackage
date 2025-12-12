@@ -40,13 +40,13 @@ Generate a Python package project:
 
     $ cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
 
-OR
+OR (if `cookiecutter` is not found):
 
 .. code-block:: bash
 
     $ python -m cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
 
-You will be asked to answer nine questions. Here is an example:
+You will be asked to answer nine questions (with suggested defaults). Here is an example:
 
 .. code-block:: none
 
