@@ -62,10 +62,11 @@ You will be asked to answer nine questions. Here is an example:
     [8/9] pypi_username (popeyelovesspinach):
     [9/9] first_version (0.1.0):
 
-Then (assuming that you are in a virtual environment or venv):
+Then (assuming that you are in a virtual environment or venv), you can install the package and do the tests:
 
 .. code-block:: bash
 
+    # Install (-e is optional for dev mode)
     $ cd spinach_finder
     $ pip install -e .
     # Tests
