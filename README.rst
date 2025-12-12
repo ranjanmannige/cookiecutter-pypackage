@@ -12,7 +12,7 @@ V1 of readme from `github.com/audreyfeldroy/cookiecutter-pypackage <github.com/a
 
 .. contents::
 
-*   GitHub repo: *   `github.com/ranjanmannige/cookiecutter-pypackage/ <https://github.com/audreyfeldroy/cookiecutter-pypackage/>`__
+*   GitHub repo: `github.com/ranjanmannige/cookiecutter-pypackage/ <https://github.com/audreyfeldroy/cookiecutter-pypackage/>`__
 *   Free software: MIT license
 
 Features
