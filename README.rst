@@ -31,21 +31,25 @@ Quickstart
 Install the latest Cookiecutter if you haven't installed it yet:
 
 .. code-block:: bash
+    
     $ pip install -U cookiecutter
 
 Generate a Python package project:
 
 .. code-block:: bash
+
     $ cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
 
 OR
 
 .. code-block:: bash
+
     $ python -m cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
 
 You will be asked to answer nine questions. Here is an example:
 
 .. code-block:: bash
+
     [1/9] full_name (Ranjan Mannige): Popeye The Sailor
     [2/9] email (ranjanmannige@gmail.com): popeye@spinach.com
     [3/9] github_username (ranjanmannige): popeyelovesspinach
@@ -59,6 +63,7 @@ You will be asked to answer nine questions. Here is an example:
 Then (assuming that you are in a virtual environment or venv):
 
 .. code-block:: bash
+
     $ cd spinach_finder
     $ pip install -e .
     # Tests
