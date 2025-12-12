@@ -80,16 +80,18 @@ Generating documentation
 ========================
 
 You can auto-generate documentation by:
+
 .. code-block:: bash
+
     $ cd docs
     # Sphinx requires some extra installs
     $ pip install -r requirements.txt
     $ make html
 
-... this should create a `docs/_build/html/X.html` for each `X.rst` stored in `docs/`.
+This should create a `docs/_build/html/X.html` for each `X.rst` stored in `docs/`.
 
 Full documentation, once compiled using Sphinx (via git workflow), will be available here: 
-https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/.
+`{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/ <https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/>`__.
 
 
 Next steps
