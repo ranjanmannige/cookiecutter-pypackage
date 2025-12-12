@@ -44,15 +44,23 @@ OR
 
 You will be asked to answer nine questions. Here is an example:
 .. code-block:: bash
-    [1/9] full_name (Ranjan Mannige): Popeye The Sailor<br>
-    [2/9] email (ranjanmannige@gmail.com): popeye@spinach.com<br>
-    [3/9] github_username (ranjanmannige): popeyelovesspinach<br>
-    [4/9] project_name (Python Boilerplate): Spinach Finder<br>
-    [5/9] project_slug (spinach_finder): <br>
-    [6/9] pypi_package_name (spinach_finder): <br>
-    [7/9] project_short_description (Python Boilerplate contains all the boilerplate you need to create a Python package.): Spinach Finder is a magical app that finds spinach for Popeye!<br>
-    [8/9] pypi_username (popeyelovesspinach): <br>
-    [9/9] first_version (0.1.0): <br>
+    [1/9] full_name (Ranjan Mannige): Popeye The Sailor
+
+    [2/9] email (ranjanmannige@gmail.com): popeye@spinach.com
+
+    [3/9] github_username (ranjanmannige): popeyelovesspinach
+
+    [4/9] project_name (Python Boilerplate): Spinach Finder
+
+    [5/9] project_slug (spinach_finder):
+
+    [6/9] pypi_package_name (spinach_finder):
+
+    [7/9] project_short_description (Python Boilerplate contains all the boilerplate you need to create a Python package.): Spinach Finder is a magical app that finds spinach for Popeye!
+
+    [8/9] pypi_username (popeyelovesspinach):
+    
+    [9/9] first_version (0.1.0):
 
 Then (assuming that you are in a virtual environment or venv):
 
