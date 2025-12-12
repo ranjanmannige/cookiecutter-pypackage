@@ -8,7 +8,7 @@ Cookiecutter PyPackage (custom version)
 
 `Cookiecutter <https://github.com/cookiecutter/cookiecutter>`__ template for a Python package.
 
-V1 of readme from `github.com/audreyfeldroy/cookiecutter-pypackage <github.com/audreyfeldroy/cookiecutter-pypackage/>`__)
+V1 of readme from `github.com/audreyfeldroy/cookiecutter-pypackage <github.com/audreyfeldroy/cookiecutter-pypackage/>`__.
 
 .. contents::
 
@@ -30,19 +30,21 @@ Quickstart
 
 Install the latest Cookiecutter if you haven't installed it yet:
 
-```bash
-pip install -U cookiecutter
-```
+.. code-block:: bash
+    $ pip install -U cookiecutter
 
 Generate a Python package project:
 
-```bash
-cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
-```
+.. code-block:: bash
+    $ cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
+
+OR
+.. code-block:: bash
+    $ python -m cookiecutter https://github.com/ranjanmannige/cookiecutter-pypackage.git
 
 Then:
 
 *   Create a repo and put it there.
-*   [Register](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives) your project with PyPI.
-*   Release your package by pushing a new tag to master.
+*   `Register <https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives>`__ your project with PyPI.
+*   Release your package by pushing a new tag to main.
 
