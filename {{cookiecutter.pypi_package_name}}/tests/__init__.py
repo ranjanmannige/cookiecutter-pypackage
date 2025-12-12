@@ -1,1 +1,1 @@
-"""Unit test package for backmap."""
+"""Unit test package for {{cookiecutter.project_slug}}."""

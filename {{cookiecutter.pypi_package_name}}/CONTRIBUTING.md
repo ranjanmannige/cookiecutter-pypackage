@@ -26,7 +26,7 @@ Look through the GitHub issues for features. Anything tagged with "enhancement" 
 
 ### Write Documentation
 
-backmap could always use more documentation, whether as part of the official docs, in docstrings, or even on the web in blog posts, articles, and such.
+{{cookiecutter.project_slug}} could always use more documentation, whether as part of the official docs, in docstrings, or even on the web in blog posts, articles, and such.
 
 ### Submit Feedback
 
@@ -40,21 +40,21 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `backmap` for local development.
+Ready to contribute? Here's how to set up `{{cookiecutter.project_slug}}` for local development.
 
-1. Fork the `backmap` repo on GitHub.
+1. Fork the `{{cookiecutter.project_slug}}` repo on GitHub.
 2. Clone your fork locally:
 
    ```sh
-   git clone git@github.com:your_name_here/backmap.git
+   git clone git@github.com:your_name_here/{{cookiecutter.project_slug}}.git
    ```
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development:
 
    ```sh
-   mkvirtualenv backmap
-   cd backmap/
-   python setup.py develop
+   mkvirtualenv {{cookiecutter.project_slug}}
+   cd {{cookiecutter.project_slug}}/
+   pip install -e .
    ```
 
 4. Create a branch for local development:
@@ -99,7 +99,7 @@ Before you submit a pull request, check that it meets these guidelines:
 To run a subset of tests:
 
 ```sh
-pytest tests.test_backmap
+pytest tests.test_hello
 ```
 
 ## Deploying

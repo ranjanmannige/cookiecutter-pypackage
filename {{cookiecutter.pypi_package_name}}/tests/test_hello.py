@@ -22,7 +22,7 @@ __license__ = "MIT"
 
 def test_hello_world_simple1():
     """ 
-    Test with no name, when accessed via backmap.utils
+    Test with no name, when accessed via {{cookiecutter.project_slug}}.utils
     """
     expected_return = "HELLO WORLD! THIS IS {{cookiecutter.project_slug}}!"
     returned_str = {{cookiecutter.project_slug}}.utils.hello_world()
@@ -32,7 +32,7 @@ def test_hello_world_simple1():
 
 def test_hello_world_named1():
     """ 
-    Test with no name, when accessed via backmap.utils
+    Test with no name, when accessed via {{cookiecutter.project_slug}}.utils
     """
     name = 'Popeye'
     expected_return = f"HELLO {name}! THIS IS {{cookiecutter.project_slug}}!"
@@ -42,7 +42,7 @@ def test_hello_world_named1():
 
 def test_hello_world_simple2():
     """ 
-    Test with no name, when accessed via backmap.utils
+    Test with no name, when accessed via {{cookiecutter.project_slug}} directly
     """
     expected_return = "HELLO WORLD! THIS IS {{cookiecutter.project_slug}}!"
     returned_str = {{cookiecutter.project_slug}}.hiya()
@@ -52,7 +52,7 @@ def test_hello_world_simple2():
 
 def test_hello_world_named2():
     """ 
-    Test with no name, when accessed via backmap
+    Test with no name, when accessed via {{cookiecutter.project_slug}} directly
     """
     name = 'Popeye'
     expected_return = f"HELLO {name}! THIS IS {{cookiecutter.project_slug}}!"

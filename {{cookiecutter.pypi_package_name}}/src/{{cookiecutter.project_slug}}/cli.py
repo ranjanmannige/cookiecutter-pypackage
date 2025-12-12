@@ -1,23 +1,11 @@
-"""Console script for backmap. 
+"""Console script for {{cookiecutter.project_slug}}. 
 
 This section provides a more detailed description of what the module does,
 its main functionalities, and any important context or background information.
 It can span multiple paragraphs.
 
 
-Usage: python -m backmap --pdbfn <filename/dirname> <other options>
-
-Args:
-    pdbfn: Location of a PDB file or a directory containing PDB file(s). 
-        Single file can contain multiple structures separated by the MODEL term.
-    output-dir: Where the generated figures will be stored. If absent, a 
-        report dir will be placed in the PDBs parent directory.                                                     
-    no-write: Don't write figures to the report directory. [default: True]                      
-    no-show: Don't show figures while the app is running. [default: True]                      
-    signed: Use the signed Ramachandran plot. [default: False]                                                 
-    colortype: Graph coloring options (options: ['Chirality ', 'SecondaryStructure']).
-        [default: Chirality]                                                
-    help: Print the available options.
+Usage: python -m {{cookiecutter.project_slug}} --name "Popeye"
 """
 
 import typer

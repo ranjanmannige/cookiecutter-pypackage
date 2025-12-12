@@ -1,4 +1,4 @@
-# Justfile for backmap
+# Justfile for {{cookiecutter.project_slug}}
 
 # Show available commands
 list:

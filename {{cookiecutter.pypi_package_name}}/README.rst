@@ -4,14 +4,6 @@
     :alt: CookieCutter Banner
     :width: 75%
 
-
-Full documentation, once compiled using Sphinx, will be available here: 
-https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/.
-
-
-.. contents::
-
-
 Heading 1
 =========
 
@@ -53,7 +45,7 @@ Manually download the source code (`main.zip <https://github.com/{{cookiecutter.
     
     # In stead of downloading, you can follow the next two commands (tested only on linux)
     $ wget https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/archive/refs/heads/main.zip
-    $ unzip main.zip # Should giv you a directory called "backmap-main"
+    $ unzip main.zip # Should giv you a directory called "{{cookiecutter.project_slug}}-main"
     # The rest is the same as with installing using `git clone`
     $ cd {{cookiecutter.project_slug}}-main
     $ pip install .

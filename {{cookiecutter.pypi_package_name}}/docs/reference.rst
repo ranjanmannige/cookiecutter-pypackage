@@ -3,8 +3,8 @@ CODE/API MANUAL
 
 User reference for the {{cookiecutter.pypi_package_name}} package.
 
-backmap
-=======
+{{cookiecutter.project_slug}}
+=============================================================================================
 
 .. automodule:: {{cookiecutter.project_slug}}.{{cookiecutter.project_slug}}
     :members:
