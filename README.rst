@@ -73,10 +73,6 @@ Then (assuming that you are in a virtual environment or venv), you can install t
     $ pip install pytest
     $ pytest
 
-If the functions/classes/modules in your python files (presumably stored in `src/{{cookiecutter.project_slug}}/`) are 
-documented using `docstrings <https://google.github.io/styleguide/pyguide.html#docstrings>`__, they can be packaged in 
-Sphinx the documentation (i.e., they can be referenced in `docs/reference.rst`; an example is shown in the template). 
-
 Generating documentation
 ========================
 
@@ -96,6 +92,18 @@ of the `docs/_build/html/index.html` file that was created from the `docs/index.
 .. image:: {{cookiecutter.pypi_package_name}}/docs/images/sphinx_documentation_outcome.png
     :alt: The Sphinx HTML output
     :width: 80%
+
+If the functions/classes/modules in your python files (presumably stored in `src/project_slug/`) are 
+documented using `docstrings <https://google.github.io/styleguide/pyguide.html#docstrings>`__, they will be included 
+in the reference documentation by Sphinx (one that module is listed in `docs/reference.rst`; see this document 
+for an idea of how code can be included in documentation). 
+
+Here is an example of such code documentation (`docs/_build/html/reference.html`):
+
+.. image:: {{cookiecutter.pypi_package_name}}/docs/images/sphinx_code_documentation_outcome.png
+    :alt: The Sphinx HTML output
+    :width: 80%
+
 
 
 Once compiled using Sphinx via git workflow (see `.github/workflows/SphinxBuild.yml`), 
