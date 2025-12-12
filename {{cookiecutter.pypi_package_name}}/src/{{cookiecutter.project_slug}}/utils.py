@@ -1,6 +1,4 @@
-"""Utility functions important for loading and processing PDB files. 
-Functions following ``calculate_dihedral_angle()`` are probably not very 
-interesting to most."""
+"""Utility functions."""
 
 
 def hello_world(name=None):
