@@ -48,7 +48,7 @@ OR
 
 You will be asked to answer nine questions. Here is an example:
 
-.. code-block:: bash
+.. code-block:: none
 
     [1/9] full_name (Ranjan Mannige): Popeye The Sailor
     [2/9] email (ranjanmannige@gmail.com): popeye@spinach.com
