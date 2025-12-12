@@ -1,7 +1,7 @@
 """Top-level package for backmap."""
 
-__author__ = """Ranjan Mannige"""
-__email__ = 'ranjanmannige@gmail.com'
+__author__ = """{{cookiecutter.full_name}}"""
+__email__ = '{{cookiecutter.email}}'
 __license__ = "MIT"
 
 from .{{cookiecutter.project_slug}} import *

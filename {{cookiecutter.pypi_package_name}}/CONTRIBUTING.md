@@ -8,7 +8,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/ranjanmannige/backmap/issues.
+Report bugs at https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/issues.
 
 If you are reporting a bug, please include:
 
@@ -30,7 +30,7 @@ backmap could always use more documentation, whether as part of the official doc
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/ranjanmannige/backmap/issues.
+The best way to send feedback is to file an issue at https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/issues.
 
 If you are proposing a feature:
 
