@@ -1,5 +1,6 @@
-
-# {{cookiecutter.full_name}}'s awesome new Python package!
+================================================================================================================================================
+{{cookiecutter.full_name}}'s awesome new Python package!
+================================================================================================================================================
 .. image:: docs/images/cookie_cutter_banner.png
     :alt: CookieCutter Banner
     :width: 75%
