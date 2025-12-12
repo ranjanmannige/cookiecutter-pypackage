@@ -1,7 +1,7 @@
 ================================================================================================================================================
 {{cookiecutter.full_name}}'s awesome new Python package!
 ================================================================================================================================================
-.. image:: docs/images/cookie_cutter_banner.png
+.. image:: https://github.com/ranjanmannige/cookiecutter-pypackage/blob/main/%7B%7Bcookiecutter.pypi_package_name%7D%7D/docs/images/cookie_cutter_banner.png
     :alt: CookieCutter Banner
     :width: 75%
 
