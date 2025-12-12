@@ -83,5 +83,5 @@ After installation, the following commands produce a variety of graphs (exampled
 
 .. code-block:: bash
 
-    $ python -m {{cookie_cutter.project_slug}} --name Popeye
+    $ python -m {{cookiecutter.project_slug}} --name Popeye
 
