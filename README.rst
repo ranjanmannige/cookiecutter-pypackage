@@ -88,7 +88,13 @@ You can auto-generate documentation by:
     $ pip install -r requirements.txt
     $ make html
 
-This should create a `docs/_build/html/X.html` for each `X.rst` stored in `docs/`.
+This should create a `docs/_build/html/X.html` for each `X.rst` stored in `docs/`. Here is an example of the `docs/_build/html/index.html` file that 
+was created from the `docs/index.rst` file:
+
+.. image:: {{cookiecutter.pypi_package_name}}/docs/images/sphinx_documentation_outcome.png
+    :alt: The Sphinx HTML output
+    :width: 80%
+
 
 Continuing with our Popeye example bove, once compiled using Sphinx via git workflow (see `.github/workflows/SphinxBuild.yml`), 
 full documentation should be available at: 
