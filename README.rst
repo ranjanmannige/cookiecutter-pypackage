@@ -6,9 +6,9 @@
 Cookiecutter PyPackage (custom version)
 =======================================
 
-`https://github.com/cookiecutter/cookiecutter <Cookiecutter>`__ template for a Python package.
+`Cookiecutter <https://github.com/cookiecutter/cookiecutter>`__ template for a Python package.
 
-V1 of readme from [https://github.com/audreyfeldroy/cookiecutter-pypackage/](github.com/audreyfeldroy/cookiecutter-pypackage/)
+V1 of readme from `github.com/audreyfeldroy/cookiecutter-pypackage <github.com/audreyfeldroy/cookiecutter-pypackage/>`__)
 
 .. contents::
 
