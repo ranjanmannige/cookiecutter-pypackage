@@ -1,0 +1,15 @@
+pandas
+matplotlib
+Bio
+typer
+ipython
+ipython_genutils
+ipywidgets
+markupsafe
+myst-parser
+nbsphinx
+nbsphinx-link
+shapely
+sphinx
+sphinx-markdown-builder
+sphinx-rtd-theme
