@@ -90,8 +90,9 @@ You can auto-generate documentation by:
 
 This should create a `docs/_build/html/X.html` for each `X.rst` stored in `docs/`.
 
-Full documentation, once compiled using Sphinx (via git workflow), will be available here: 
-`{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/ <https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}/>`__.
+Continuing with our Popeye example bove, once compiled using Sphinx via git workflow (see `.github/workflows/SphinxBuild.yml`), 
+full documentation should be available at: 
+`popeyelovesspinach.github.io/spinach_finder/ <https://popeyelovesspinach.github.io/spinach_finder/>`__.
 
 
 Next steps
