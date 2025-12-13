@@ -91,7 +91,7 @@ of the `docs/_build/html/index.html` file that was created from the `docs/index.
 
 .. image:: {{cookiecutter.pypi_package_name}}/docs/images/sphinx_documentation_outcome.png
     :alt: The Sphinx HTML output
-    :width: 80%
+    :width: 100%
 
 If the functions/classes/modules in your python files (presumably stored in `src/project_slug/`) are 
 documented using `docstrings <https://google.github.io/styleguide/pyguide.html#docstrings>`__, they will be included 
@@ -102,7 +102,7 @@ Here is an example of such code documentation (`docs/_build/html/reference.html`
 
 .. image:: {{cookiecutter.pypi_package_name}}/docs/images/sphinx_code_documentation_outcome.png
     :alt: The Sphinx HTML output
-    :width: 80%
+    :width: 100%
 
 
 
