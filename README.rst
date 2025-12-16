@@ -96,7 +96,7 @@ of the `docs/_build/html/index.html` file that was created from the `docs/index.
 
 If the functions/classes/modules in your python files (presumably stored in `src/project_slug/`) are 
 documented using `docstrings <https://google.github.io/styleguide/pyguide.html#docstrings>`__, they will be included 
-in the reference documentation by Sphinx (one that module is listed in `docs/reference.rst`; see this document 
+in the reference documentation by Sphinx (once that module is listed in `docs/reference.rst`; see this document 
 for an idea of how code can be included in documentation). 
 
 Here is an example of such code documentation (`docs/_build/html/reference.html`):
